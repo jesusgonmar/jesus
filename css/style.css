@@ -1,0 +1,86 @@
+na>ul {
+    list-style: none;
+}
+    nav>ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: fixed;
+        width: 100%;
+        background: red;
+        margin: 0px;
+        top: 0px;
+        height: 50px;
+    }    
+body {
+    margin-top: 70px;
+}
+p.cms {
+    background: aqua;
+    width: 5cm;
+    height: 5cm;
+    margin-right: 2%;
+    padding-bottom: 20%
+}
+p.ml {
+    background: aquamarine;
+    height: 50mm;
+    width: 50mm;
+}
+p.pulgadas {
+    background: bisque;
+    height: 2in;
+    width: 2in;
+}
+p.px {
+    background: darkgrey;
+    height: 200px;
+    width: 200px;
+}
+p.puntos {
+    background: blueviolet;
+    color: white;
+    height: 150pt;
+    width: 150pt;
+}
+p.picas {
+    background: red;
+    height: 12pc;
+    width: 12pc;
+}
+.absolutas {
+    display: flex;
+    flex-wrap: wrap;
+}
+p.multi {
+    background: aqua;
+    height: 10em;
+    width: 10em;
+    font-size: 40px;
+}
+p.root {
+    background: blue;
+    height: 10em;
+    width: 10em;
+    color: white;
+}
+p.alto {
+    background: tomato;
+    height: 18vh;
+    width: 18vh;
+}
+p.ancho {
+    background: antiquewhite;
+    height: 12vw;
+    width: 12vw;
+}
+p.padre {
+    background: yellowgreen;
+    height: 50%;
+    width: 13%;
+}
+.relativas {
+    display: flex;
+    flex-wrap: wrap;
+}
